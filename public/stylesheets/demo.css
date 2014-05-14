@@ -112,7 +112,10 @@ a:hover, a:focus {
 .codrops-icon-prev:before {
 	content: "\e004";
 }
-
+.codrops-icon-next:before {
+	content: "\e006";
+	color: #48a770;
+}
 .main {
 	max-width: 69em;
 	margin: 0 auto;

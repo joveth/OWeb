@@ -6,5 +6,5 @@ exports.Index = function(req, res){
 	res.render('index', { title: 'Home - OWeb' });
 };
 exports.Infor = function(req, res){
-	res.render('infor', { title: 'Infor - OWeb' });
+	res.render('oinfor', { title: 'Infor - OWeb' });
 };

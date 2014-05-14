@@ -12,7 +12,15 @@
 		</ul>
 		<ul id="wi-el" class="wi-container" style="margin-bottom:20px;min-height: 0;" >
 			<li style="padding:0;margin-bottom:20px;">
-				<img src="/img/Ideas.png" alt="image1" style="max-height:100%;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);"/>
+				<div id="cbp-fwslider" class="cbp-fwslider">
+					<ul>
+						<li><a href="#"><img src="/img/Ideas.png" /></a></li>
+						<li><a href="#"><img src="/img/OMinds.png" alt="img02"/></a></li>
+						<li><a href="#"><img src="/img/Ideas.png" /></a></li>
+						<li><a href="#"><img src="/img/OMinds.png" alt="img02"/></a></li>
+						<li><a href="#"><img src="/img/Ideas.png" /></a></li>
+					</ul>
+				</div>
 			</li>
 		</ul>
 		<ul id="wi-el" class="wi-container" style="margin-bottom:20px;min-height: 0;">
@@ -35,4 +43,24 @@
 		</ul>
 	</div>
 </div><!-- /main -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/js/jquery.cbpFWSlider.min.js"></script>
+<script>
+	$( function() {
+		/*
+		- how to call the plugin:
+		$( selector ).cbpFWSlider( [options] );
+		- options:
+		{
+			// default transition speed (ms)
+			speed : 500,
+			// default transition easing
+			easing : 'ease'
+		}
+		- destroy:
+		$( selector ).cbpFWSlider( 'destroy' );
+		*/
+		$( '#cbp-fwslider' ).cbpFWSlider();
+	} );
+</script>
 <%- include footer%>
