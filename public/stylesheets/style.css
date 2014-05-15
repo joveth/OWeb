@@ -74,6 +74,7 @@ ul.wi-container li.wi-move {
 .windy-demo p {
 	font-size: 13px;
 	line-height: 25px;
+	word-break: break-all;
 }
 
 .windy-demo ul.wi-container li {
@@ -134,4 +135,47 @@ ul.wi-container li.wi-move {
 }
 .web-others>span,.web-others>a{
 	font-size: 13px;
+}
+.avatars{
+	width: 45px;
+	display: inline-block!important;
+	zoom: 1;
+	vertical-align: top;
+}
+.avatars-img {
+	
+}
+.comment{
+	font-size: 12px;
+	word-break: break-all;
+	border-bottom: 1px solid #f4f2ef;
+}
+.usermail {
+	color: #9b8878;
+	display: block;
+	font-size: 14px;
+	padding-bottom: 0;
+}
+.replay {
+	width: 440px;
+	display: inline-block!important;
+	zoom: 1;
+}
+.report {
+	color: #d7d0c6;
+	_margin-top: -28px;
+	margin: 0;
+	position: absolute;
+	z-index: 12;
+	right: 10px;
+	top: 22px;
+	color: #e5e5e5;
+	font-size: 16px;
+	font-weight: normal;
+}
+.comment-wrap {
+	padding: 10px 10px;
+	background: white;
+	background-color: #f2f2f2;
+	border-top: 1px solid #ddd;
 }

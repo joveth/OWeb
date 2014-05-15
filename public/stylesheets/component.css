@@ -161,7 +161,7 @@ body,
 	position: relative;
 	margin: 0 0 10px;
 	overflow: hidden;
-	padding: 40px 0 60px;
+	padding: 0px 0 10px;
 }
 
 .cbp-fwslider ul {
@@ -192,7 +192,6 @@ body,
 	border: none;
 	display: block;
 	margin: 0 auto;
-	max-width: 75%;
 }
 
 .cbp-fwslider nav span {
